@@ -1,0 +1,280 @@
+[2024-06-27 16:46:08] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-06-27 16:46:08] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-06-27 16:46:08] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-06-27 16:46:10] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-06-27 16:46:10] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-06-27 16:46:10] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-06-27 16:46:11] [class-ss-setup-task.php:33] Creating archive directory: D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768\
+[2024-06-27 16:46:11] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/Moviemoster/
+[2024-06-27 16:46:11] [class-ss-setup-task.php:137] File D:\doo\htdocs\moviemoster\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: D:/doo/htdocs/moviemoster/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-06-27 16:46:11] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-06-27 16:46:11] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-27 16:46:11] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-27 16:46:11] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-06-27 16:46:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/
+[2024-06-27 16:46:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-06-27 16:46:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d9753bdb1d-kUIQMB.tmp
+[2024-06-27 16:46:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/?simply_static_page=1
+[2024-06-27 16:46:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/?simply_static_page=1
+[2024-06-27 16:46:15] [class-ss-url-fetcher.php:103] Filesize: 84903 bytes
+[2024-06-27 16:46:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-27 16:46:15] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-06-27 16:46:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d9753bdb1d-kUIQMB.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/index.html
+[2024-06-27 16:46:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:28] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-06-27 16:46:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:30] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ˘∑|NoµjK÷˜p¬©ÙN
+[2024-06-27 16:46:30] [class-ss-page.php:118] Checking Content Identical:f90eb77c4e6fb5116a024b11d604f770c2a9f44e===. Value: FALSE
+[2024-06-27 16:46:30] [class-ss-fetch-urls-task.php:72] URL: D:/doo/htdocs/moviemoster/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-06-27 16:46:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-06-27 16:46:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:30] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-06-27 16:46:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-06-27 16:46:31] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-27 16:46:32] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-27 16:46:32] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-27 16:46:32] [class-ss-fetch-urls-task.php:69] Total pages: 16; Pages remaining: 14
+[2024-06-27 16:46:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster
+[2024-06-27 16:46:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 16
+[2024-06-27 16:46:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d9768a98ae-vghkNX.tmp
+[2024-06-27 16:46:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster?simply_static_page=3
+[2024-06-27 16:46:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster?simply_static_page=3
+[2024-06-27 16:46:32] [class-ss-url-fetcher.php:103] Filesize: 357 bytes
+[2024-06-27 16:46:32] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-06-27 16:46:32] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:205] redirect_url: http://localhost/Moviemoster/
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:214] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-06-27 16:46:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 16
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976971769-7dlHUq.tmp
+[2024-06-27 16:46:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=4
+[2024-06-27 16:46:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=4
+[2024-06-27 16:46:33] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-06-27 16:46:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-06-27 16:46:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-06-27 16:46:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d976971769-7dlHUq.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: høñÍßŒ2£-âœ˘ﬂwr
+[2024-06-27 16:46:33] [class-ss-page.php:118] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-06-27 16:46:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-06-27 16:46:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 16
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976a046d8-On8gXJ.tmp
+[2024-06-27 16:46:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=5
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=5
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d976a046d8-On8gXJ.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ],l”ÿ“ƒ(7bÄs‰Q%w‰
+[2024-06-27 16:46:34] [class-ss-page.php:118] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-06-27 16:46:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 16
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976a7e2ca-Zan3tH.tmp
+[2024-06-27 16:46:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=6
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=6
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d976a7e2ca-Zan3tH.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: £(O{^∆Ñ!√U˛*Âk0cöû
+[2024-06-27 16:46:34] [class-ss-page.php:118] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-includes/blocks/navigation/view.min.js
+[2024-06-27 16:46:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 16
+[2024-06-27 16:46:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976abcd94-j4JEfY.tmp
+[2024-06-27 16:46:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-includes/blocks/navigation/view.min.js?simply_static_page=7
+[2024-06-27 16:46:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-includes/blocks/navigation/view.min.js?simply_static_page=7
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d976abcd94-j4JEfY.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-includes/blocks/navigation/view.min.js
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ≤{®”πéﬂ’#÷ËB)’/˝
+[2024-06-27 16:46:35] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-includes/blocks/navigation/style.min.css
+[2024-06-27 16:46:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 16
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976ba9c2b-EkgFn9.tmp
+[2024-06-27 16:46:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-includes/blocks/navigation/style.min.css?simply_static_page=8
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-includes/blocks/navigation/style.min.css?simply_static_page=8
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-06-27 16:46:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d976ba9c2b-EkgFn9.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-includes/blocks/navigation/style.min.css
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:35] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ß^ﬂTB¡ñ÷p‰6¬ˆÏ’ï‰h
+[2024-06-27 16:46:35] [class-ss-page.php:118] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2024-06-27 16:46:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-includes/blocks/image/style.min.css
+[2024-06-27 16:46:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 16
+[2024-06-27 16:46:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976c1a267-3TL4QQ.tmp
+[2024-06-27 16:46:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-includes/blocks/image/style.min.css?simply_static_page=9
+[2024-06-27 16:46:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-includes/blocks/image/style.min.css?simply_static_page=9
+[2024-06-27 16:46:36] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-06-27 16:46:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-27 16:46:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-06-27 16:46:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d976c1a267-3TL4QQ.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-includes/blocks/image/style.min.css
+[2024-06-27 16:46:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:36] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Z/∑zÔ÷œ¥¥i™LGº
+[2024-06-27 16:46:36] [class-ss-page.php:118] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
+[2024-06-27 16:46:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/index.php
+[2024-06-27 16:46:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 16
+[2024-06-27 16:46:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976c65e1c-Ucx9GV.tmp
+[2024-06-27 16:46:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/index.php?simply_static_page=10
+[2024-06-27 16:46:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/index.php?simply_static_page=10
+[2024-06-27 16:46:37] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-06-27 16:46:37] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-06-27 16:46:37] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-27 16:46:37] [class-ss-fetch-urls-task.php:205] redirect_url: http://localhost/Moviemoster/
+[2024-06-27 16:46:37] [class-ss-fetch-urls-task.php:224] This looks like a redirect from http to https (or visa versa); adding new URL to the queue
+[2024-06-27 16:46:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/xmlrpc.php
+[2024-06-27 16:46:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 16
+[2024-06-27 16:46:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Moviemoster/xmlrpc.php
+[2024-06-27 16:46:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-27 16:46:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-includes/js/dist/interactivity.min.js
+[2024-06-27 16:46:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 16
+[2024-06-27 16:46:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976da206e-cpTn2i.tmp
+[2024-06-27 16:46:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-includes/js/dist/interactivity.min.js?simply_static_page=12
+[2024-06-27 16:46:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-includes/js/dist/interactivity.min.js?simply_static_page=12
+[2024-06-27 16:46:38] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-06-27 16:46:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-27 16:46:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-06-27 16:46:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d976da206e-cpTn2i.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-includes/js/dist/interactivity.min.js
+[2024-06-27 16:46:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:39] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: î“-HóüFVÙixø‘∂zÎÏ
+[2024-06-27 16:46:39] [class-ss-page.php:118] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
+[2024-06-27 16:46:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-06-27 16:46:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 16
+[2024-06-27 16:46:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d976f42a8d-bizghn.tmp
+[2024-06-27 16:46:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=13
+[2024-06-27 16:46:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=13
+[2024-06-27 16:46:39] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-06-27 16:46:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-27 16:46:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-06-27 16:46:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d976f42a8d-bizghn.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: @Tmø’ƒg√%}è:JÿØôïÆ∂
+[2024-06-27 16:46:40] [class-ss-page.php:118] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-06-27 16:46:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 16
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d97705dbe3-Q407qN.tmp
+[2024-06-27 16:46:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=14
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=14
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d97705dbe3-Q407qN.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ∏joÛ˚Gweﬂ„|§Èõê!n
+[2024-06-27 16:46:40] [class-ss-page.php:118] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-06-27 16:46:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 16
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d9770ac601-kZNKpX.tmp
+[2024-06-27 16:46:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=15
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=15
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-06-27 16:46:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d9770ac601-kZNKpX.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ﬂˆå@'œB`Wò°ﬁF†a—`£
+[2024-06-27 16:46:40] [class-ss-page.php:118] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-06-27 16:46:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-06-27 16:46:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 16
+[2024-06-27 16:46:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d977120c11-XcfPoF.tmp
+[2024-06-27 16:46:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=16
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=16
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d977120c11-XcfPoF.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-06-27 16:46:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-27 16:46:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-27 16:46:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-27 16:46:41] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ‹V¯0è3Ö¥'ŒÖ¬ö¸G·|`
+[2024-06-27 16:46:41] [class-ss-page.php:118] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-06-27 16:46:41] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 16 pages/files
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-27 16:46:41] [class-ss-fetch-urls-task.php:69] Total pages: 16; Pages remaining: 0
+[2024-06-27 16:46:41] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 16 of 16 pages/files
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-06-27 16:46:41] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\crypt\AppData\Local\Temp/667d97717b63e-F3r59h.tmp
+[2024-06-27 16:46:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Moviemoster/1719506802?simply_static_page=0
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Moviemoster/1719506802?simply_static_page=0
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:103] Filesize: 295 bytes
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-06-27 16:46:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\crypt\AppData\Local\Temp/667d97717b63e-F3r59h.tmp to D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\temp-files/simply-static-1-1719506768\404/index.html
+[2024-06-27 16:46:41] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-06-27 16:46:41] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-06-27 16:46:41] [class-ss-page.php:118] Checking Content Identical:1ac8eae68af9ef376d9d3b77ae74cdd618de85c6===. Value: FALSE
+[2024-06-27 16:46:41] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-06-27 16:46:41] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-06-27 16:46:41] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 12 of 12 files
+[2024-06-27 16:46:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/
+[2024-06-27 16:46:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-content/themes/twentytwentyfour/assets/images
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-content/themes/twentytwentyfour/assets/images
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-content/themes/twentytwentyfour/assets/images
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-includes/blocks/navigation
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-includes/blocks/navigation
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-includes/blocks/image
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-includes/js/dist
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/inter
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-06-27 16:46:42] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/doo/htdocs/moviemoster/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-06-27 16:46:43] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:12. Processed Pages: 12
+[2024-06-27 16:46:43] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 12 of 12 files
+[2024-06-27 16:46:43] [trait-can-process-pages.php:103] Total pages: 12; Pages remaining: 0
+[2024-06-27 16:46:43] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-06-27 16:46:43] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at D:/doo/htdocs/moviemoster\404\index.html
+[2024-06-27 16:46:43] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-06-27 16:46:43] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://sheikifg.github.io/moviemoster/" target="_blank">https://sheikifg.github.io/moviemoster/</a>
+[2024-06-27 16:46:43] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-06-27 16:46:43] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-06-27 16:46:43] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-06-27 16:46:43] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-06-27 16:46:43] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-06-27 16:46:43] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-06-27 16:46:43] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-06-27 16:46:43] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:35

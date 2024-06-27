@@ -1,0 +1,16 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END WordPress
+# BEGIN Simply Static
+# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<Files "D:\doo\htdocs\moviemoster/wp-content/uploads\simply-static\8d4ec14d3d963da27dbaafee007c99c9-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
