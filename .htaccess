@@ -14,3 +14,13 @@ require all denied
 require host localhost
 </Files>
 # END Simply Static
+
+# START: All in One SEO Sitemap Rewrite Rules
+# Do not make edits to these rules!
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule sitemap(|[0-9]+)\.xml$ /index.php [L]
+	RewriteRule (default|video)-sitemap\.xsl /index.php [L]
+</IfModule>
+# END: All in One SEO Sitemap Rewrite Rules
