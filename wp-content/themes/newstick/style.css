@@ -1,0 +1,125 @@
+/*
+Theme Name: 	   NewsTick
+Text Domain: 	   newstick
+Template: 			newsmunch
+Version:            0.4
+Tested up to:       6.5
+Requires at least:  4.7
+Requires PHP:       7.0
+Author:             DesertThemes
+Author URI:         https://desertthemes.com/
+Theme URI:          https://desertthemes.com/themes/newstick-free/
+Description:        NewsTick is a fast, clean, Best Responsive News Magazine WordPress theme. NewsTick is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. With its modern and clean design, NewsTick offers a visually appealing layout that is easy to navigate, making it ideal for delivering content to your readers. This theme comes equipped with a range of customizable options, custom widgets, and color schemes, allowing you to tailor your website to your specific needs and branding. It also supports various post formats, making it easy to present a variety of content types, from articles and videos to images and galleries. NewsTick is optimized for speed and SEO, ensuring that your website loads quickly and ranks well in search engine results. Its responsive design ensures that your content looks great on all devices, whether it's a desktop computer, tablet, or smartphone. NewsTick demos https://preview.desertthemes.com/newsmunch/
+Tags:               blog, e-commerce, entertainment, grid-layout, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, featured-images, featured-image-header, flexible-header, post-formats, rtl-language-support, translation-ready, theme-options, threaded-comments, footer-widgets
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --dt-main-rgb: 215, 41, 36;
+    --dt-black-color: #101010;
+    --dt-title-family: "Josefin Sans", sans-serif;
+    --dt-base-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    font-optical-sizing: auto;
+}
+
+.header--ten.dt_header .dt_navbar-nav .dt_home-icon a:hover, 
+.header--ten.dt_header .dt_navbar-nav .dt_home-icon a:focus {
+    background-color: var(--dt-secondary-color);
+}
+
+.header--ten .dt_switcherdarkbtn:focus {
+    color: rgb(0 0 0 / 51%);
+}
+
+.header--ten .dt_navbar-wrapper.is--sticky.on .dt_navbar-inner= {
+    display: none;
+}
+
+.header--ten .dt_navbar .dt_navbar-subscribe-item .dt-subscribe,
+.header--ten .dt_navbar .dt_navbar-login-item .dt-user-login,
+.header--ten .dt_navbar .dt_navbar-cart-item .dt_navbar-cart-icon,
+.header--ten .dt_navbar .dt_navbar-search-item button.dt_navbar-search-toggle {
+    background: transparent;
+    width: 2.4rem;
+    height: 2.4rem;
+    line-height: normal;
+    padding: 0;
+    box-shadow: none;
+}
+
+@media (min-width: 62em) {
+    .header--ten sup.menu-badge {
+        top: -11px;
+    }
+}
+
+.header--ten .dt_navbar-menu {
+    padding: 10px;
+    justify-content: space-between;
+}
+
+html body .header--ten+.exclusive-wrapper {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.header--ten .dt_navbar-wrapper .dt_navbar-inner .dt-row .dt-col-md:first-child .dt_navbar-right > ul {
+    padding-left: 0;
+    padding-right: 1.2rem;
+    justify-content: start;
+}
+
+.header--ten .dt_navbar-wrapper .dt_navbar-inner .site--logo {
+    text-align: center;
+}
+
+.header--ten .dt_navbar-menu {
+    background-color: #fff;
+    border-bottom: solid 3px rgba(78, 78, 78, 0.5);
+}
+
+body.dark .header--ten .dt_navbar-menu {
+    background-color: rgba(255,255,255,.1);
+}
+
+.header--ten .dt_navbar-wrapper.is--sticky.on .dt_navbar-menu {
+    border-bottom: none;
+}
+
+.header--ten .dt_navbar .dt_navbar-wrapper.is--sticky.on .dt_navbar-inner {
+    display: none;
+}
+
+.header--ten .dt_navbar .dt_navbar-subscribe-item .dt-subscribe,
+.header--ten .dt_navbar .dt_navbar-login-item .dt-user-login,
+.header--ten .dt_navbar .dt_navbar-cart-item .dt_navbar-cart-icon,
+.header--ten .dt_navbar .dt_navbar-search-item button.dt_navbar-search-toggle {
+    color: var(--dt-secondary-color);
+}
+
+.header--ten .dt_navbar .dt_navbar-subscribe-item .dt-subscribe:focus,
+.header--ten .dt_navbar .dt_navbar-subscribe-item .dt-subscribe:hover,
+.header--ten .dt_navbar .dt_navbar-login-item .dt-user-login:focus,
+.header--ten .dt_navbar .dt_navbar-login-item .dt-user-login:hover,
+.header--ten .dt_navbar .dt_navbar-cart-item .dt_navbar-cart-icon:focus,
+.header--ten .dt_navbar .dt_navbar-cart-item .dt_navbar-cart-icon:hover,
+.header--ten .dt_navbar .dt_navbar-search-item button.dt_navbar-search-toggle:focus,
+.header--ten .dt_navbar .dt_navbar-search-item button.dt_navbar-search-toggle:hover {
+    color: var(--dt-main-color);
+}
+
+.menu_active-three.header--ten .dt_navbar-menu,
+.menu_active-three:not(.header--one, .header--two, .header--five, .header--six, .header--seven, .header--eight, .header--nine, .header--ten) .dt_navbar-menus {
+    padding: 0;
+    border-bottom: 4px solid var(--dt-main-color);
+}
