@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-16 12:30+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:52
+msgid "Header Image"
+msgstr ""
+
+#: header.php:83
+msgid "Bigyapaan Image"
+msgstr ""
+
+#: inc/customizer.php:16
+msgid "Authentic News Pro"
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/ocdi.php:6
+msgid "Demo content files for Authentic News Theme."
+msgstr ""
+
+#: inc/ocdi.php:8
+msgid "Click here to download demo files."
+msgstr ""
+
+#: inc/sections/banner.php:79
+msgid "Recent News"
+msgstr ""
+
+#: inc/sections/banner.php:80
+msgid "View All"
+msgstr ""
+
+#: inc/sections/banner.php:137
+msgid "Banner Slider"
+msgstr ""
+
+#: inc/widgets/grid-list-posts-widget.php:14
+msgid "Retrive Grid List Posts Widgets"
+msgstr ""
+
+#: inc/widgets/grid-list-posts-widget.php:18
+msgid "Ascendoor Grid List Posts Widget"
+msgstr ""
+
+#: inc/widgets/grid-list-posts-widget.php:117
+#: inc/widgets/info-author-widget.php:110
+#: inc/widgets/list-posts-thumbnail-widget.php:110
+msgid "Section Title:"
+msgstr ""
+
+#: inc/widgets/grid-list-posts-widget.php:121
+#: inc/widgets/list-posts-thumbnail-widget.php:114
+msgid "View All Button:"
+msgstr ""
+
+#: inc/widgets/grid-list-posts-widget.php:125
+#: inc/widgets/list-posts-thumbnail-widget.php:118
+msgid "View All Button URL:"
+msgstr ""
+
+#: inc/widgets/grid-list-posts-widget.php:129
+#: inc/widgets/list-posts-thumbnail-widget.php:126
+msgid "Number of posts to displace or pass over:"
+msgstr ""
+
+#: inc/widgets/grid-list-posts-widget.php:133
+#: inc/widgets/list-posts-thumbnail-widget.php:130
+msgid "Select the category to show posts:"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:14
+msgid "Retrive Author Information Widget"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:18
+msgid "Ascendoor Author Info Widget"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:114
+msgid "Author Image URL"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:116
+msgid "Upload"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:116
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:116
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:119
+msgid "Author Name:"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:123
+msgid "Author Address:"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:127
+msgid "Description :"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:131
+msgid "Open Social link in New Tab"
+msgstr ""
+
+#: inc/widgets/info-author-widget.php:139
+#, php-format
+msgid "Link %s :"
+msgstr ""
+
+#: inc/widgets/list-posts-thumbnail-widget.php:14
+msgid "Retrive List Posts Thumbnail Widgets"
+msgstr ""
+
+#: inc/widgets/list-posts-thumbnail-widget.php:18
+msgid "Ascendoor List Posts Thumbnail Widget"
+msgstr ""
+
+#: inc/widgets/list-posts-thumbnail-widget.php:122
+msgid "Number of posts to show ( Min: 1 | Max: 6 ):"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:14
+msgid "Retrive Two Column Posts Widgets"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:18
+msgid "Ascendoor Two Column Posts Widget"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:119
+msgid "Section Title 1"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:123
+msgid "Select the category 1 to show posts"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:136
+msgid "Section Title 2"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:140
+msgid "Select the category 2 to show posts"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:153
+msgid "Number of posts to displace or pass over"
+msgstr ""

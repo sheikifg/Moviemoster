@@ -1,0 +1,12 @@
+li#accordion-section-upsell_section,
+li#customize-control-ace_news_banner_slider_horizontal_line,
+li#customize-control-ace_news_editor_choice_title,
+li#customize-control-ace_news_editor_choice_content_type,
+li#customize-control-ace_news_editor_choice_content_post_1,
+li#customize-control-ace_news_editor_choice_content_post_2,
+li#customize-control-ace_news_editor_choice_content_category,
+li#customize-control-ace_news_editor_choice_button_label,
+li#customize-control-ace_news_editor_choice_button_link,
+li#customize-control-ace_news_scroll_top {
+    display: none !important;
+}
