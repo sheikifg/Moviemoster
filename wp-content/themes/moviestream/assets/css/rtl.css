@@ -1,0 +1,74 @@
+.sdtrue .psbody{float:right}
+#sidebar{float:left}
+.konten.pagecontent{text-align:right}
+.breadcrumb{text-align:right}
+#main-menu .centernav .logo{float:right;margin-right:45px;margin-left:15px}
+.show-menu{left:auto;right:15px}
+#main-menu ul{float:right}
+.searchx{float:left}
+#main-menu ul li{float:right}
+.ms{left:10px;right:0}
+.searchx.mse{right:auto;left:50px;margin-top:8px}
+.mainslider .limit .sliderinfo{text-align:right}
+.mainslider .limit .sliderinfo .sliderinfolimit span.name{max-width:unset}
+.mainslider .limit .sliderinfo .sliderinfolimit .desc{float:right}
+.live-search_result_container .post-thumbnail{float:right;margin-left:15px;margin-right:0}
+.live-search_result_container li{text-align:right}
+.live-search_result_container .post-meta span.text{margin-left:8px;margin-right:0}
+.live-search_result_container .post-meta .quality{float:right;margin-right:0;margin-left:8px}
+.homedesc{text-align:right}
+.homedesc .fas{float:right;margin-left:10px;margin-right:0}
+.latest>h2,.latest>h1,.latest .more h2,.latest .more h1,.latest .more h3{float:right}
+.latest .more .mostax{float:right;margin-left:0;margin-right:15px}
+.latest .more .mostax li{float:right}
+.latest .more a{float:left}
+.latest .los .box .bx .limit .overlay .quality{right:auto;left:8px}
+.latest .los .box .bx .addinfox{text-align:right}
+.latest .los .box .bx .addinfox .addinfox-text .type{float:left}
+.latest .los .box .bx .addinfox .addinfox-text .addyear{float:none;margin-left:0;margin-right:0;display:initial}
+.latest .los .box{float:right}
+.infodb{text-align:right}
+.left,.alignleft{float:right}
+.limage,.rating-prc,.bmarea,.trailerbutton{margin-right:0;margin-left:25px}
+.infodb .entry-content .data li b{float:right}
+.infodb .entry-content .data li .colspan{margin-left:0;margin-right:100px;padding-left:0;padding-right:10px;border-right:1px solid #2d2d2d;border-left:0}
+.bixbox .bxtitle{display:block;text-align:right}
+.epsdlist ul li a .r{right:auto;left:15px}
+.epsdlist ul li a .l{max-width:unset}
+#sidebar .section{text-align:right;margin-right:15px;margin-left:0}
+#sidebar .section .releases{display:block}
+#sidebar .section .widgetpopular ul li .imgseries{float:right;margin-left:10px;margin-right:0}
+#sidebar .section .widgetpopular ul li .ctr{right:0;border-bottom-right-radius:0;border-bottom-left-radius:5px}
+#sidebar .section .serieslist .rating .rating-prc{float:right}
+#sidebar .section .serieslist .numscore{margin-right:5px;margin-left:0}
+#sidebar .section .ts-wpop-series-gen .ts-wpop-nav-tabs li{float:right}
+.soralist{text-align:right}
+.soralist ul li{margin-left:0;margin-right:0;padding-right:16px;position:relative}
+.soralist ul li:after{content:"\f111";font-family:"Font Awesome 5 Free";font-weight:700;font-size:5px;position:absolute;right:0}
+.singlecontent h1{text-align:right}
+p.ntf{text-align:right}
+.singlecontent #hapus{right:auto;left:0}
+.singlecontent .filterm{right:auto;left:0}
+.filterm{float:left}
+.tooltip{text-align:right}
+.tooltip .totitle h4{float:right}
+.tooltip .totitle span{float:left;margin-right:0;margin-left:10px}
+#comments{text-align:right}
+.comment-list .comment-body .comment-author .avatar{float:right;margin-left:10px;margin-right:0}
+.comment-list .comment-body .reply{float:left}
+p.comment-form-email,p.comment-form-author{float:right}
+#footer .centerfooter .ftr_wgt .anm_wdt{float:right;text-align:right}
+#footer .centerfooter .ftr_wgt .anm_wdt.last{text-align:right}
+.bigfilter .medium .limit .col-4,.bigfilter .medium .col-8,.bigfilter .medium .col-6,.bigfilter .medium .col-3{float:right}
+.bigfilter .medium .col-4 .filter-sort .ul-sort li label:after{left:-11px;right:unset}
+.bigfilter .medium .col-4 .filter-sort .ul-sort{margin-right:0;margin-left:5px}
+.bigfilter .medium .limit .checkbox li input+label:before, .bigfilter .medium .limit .checkbox li input:not(:checked)+label:before {float: right;}
+@media only screen and (max-width:690px) {
+#main-menu ul li{float:none}
+#main-menu ul li a{text-align:right;padding-right:15px}
+#main-menu ul li ul li{float:right}
+#main-menu ul li ul li a{text-align:right}
+}
+@media only screen and (max-width:490px) {
+.latest .los .box .bx .addinfox .addinfox-text .type{float: none;}
+}
